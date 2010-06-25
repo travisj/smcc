@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Social Media Consultant Consultant!</title>
+    <link href='/css/style.css' rel='stylesheet' type='text/css' />
+    <script src='/js/frank.js' type='text/javascript'></script>
+  </head>
+  <body>
+    <div id='wrapper'>
+                <script type="text/javascript">
+                (function(){
+                  var when = 1277427951;
+      
+                  function process( raw ){
+                    if( eval(raw)[0] > when )
+                      window.location.reload();
+                  }
+      
+                  (function poll(){
+                    var req = new XMLHttpRequest();  
+                    req.open('GET', '/__refresh__', true);  
+                    req.onreadystatechange = function (aEvt) {  
+                      if ( req.readyState == 4 && req.status == 200 )
+                        process(req.responseText);
+                    };
+                    req.send(null);
+                    setTimeout( poll, 1000 );
+                  })();
+      
+                })();
+                </script>
+      <header>
+        <div id='tagline'>
+          <h1>
+            Hi, I'm Travis and I am
+            <i>The Social Media Consultant Consultant&#153;.</i>
+          </h1>
+        </div>
+        <div id='img'>
+          <img src='/images/photo.jpeg' />
+        </div>
+      </header>
+      <br clear='all' />
+      <div id='main'>
+        <p>
+          Want to be a social media consultant, but don't know where to start? I can
+          teach you how to teach others how to use Facebook, Twitter, YouTube, and more!
+        </p>
+        <p>
+          Do you love a pimped MySpace page, but not sure how to teach someone how to do
+          it, you will learn in my intensive 3-day crash course.
+        </p>
+        <p>
+          Do you think blogs are the bees knees, but not sure how you can champion
+          blogging in your organization? I will teach you everything you need to know to
+          teach others things they need to know.
+        </p>
+        <p>
+          Be sure to follow me on
+          <a href='http://twitter.com/travisj'>Twitter</a>
+          for lots of great free social media consulting advice and friend me on
+          <a href='http://facebook.com/travisj'>Facebook</a>
+          and learn how to pretend to have an engaging conversation without really caring.
+        </p>
+        <p>
+          <a href='#'>Click here for my one free tip.</a>
+        </p>
+        <p>
+          If you like my website donate to my tip jar or hire me to design an
+          equally amazing site for you. I also modify Wordpress themes to include
+          one custom header graphic!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

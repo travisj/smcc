@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica, Arial;
+  color: #222222;
+  width: 900px;
+  margin: 0 auto; }
+
+header {
+  margin-top: 40px; }
+  header #img {
+    width: 550px;
+    float: left;
+    text-align: right; }
+  header #tagline {
+    float: left;
+    width: 300px; }
+    header #tagline h1 {
+      font-size: 3em;
+      text-align: right;
+      margin-right: 50px; }
